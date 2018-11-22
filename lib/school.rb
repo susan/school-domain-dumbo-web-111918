@@ -24,7 +24,7 @@ class School
 
   def sort
     self.roster.each do |key, value|
-      self.roster[key] = self.roster[key].sort
+      self.roster[key].sort
     end
     self.roster
   end
