@@ -23,8 +23,8 @@ class School
   end
 
   def sort
-    self.roster.each do |key, value|
-      self.roster[key].sort
+    self.roster.map do |key, value|
+      self.roster[key] = self.roster[key].sort
     end
     self.roster
   end
