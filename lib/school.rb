@@ -9,12 +9,12 @@ class School
     @roster = {}
   end
 
-  def add_student(name,num)
-    if roster[:num]
-      roster[:num]<< name
+  def add_student(name, num)
+    if self.roster[:num]
+      self.roster[:num]<< name
     else
-      roster[:num] = []
-      roster[:num] << name
+      self.roster[:num] = []
+      self.roster[:num] << name
     end
   end
 
