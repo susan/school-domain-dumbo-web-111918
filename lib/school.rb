@@ -24,4 +24,5 @@ class School
 end
 
 school = School.new("Niles")
+school.add_student("Susan", 10)
 binding.pry
