@@ -29,3 +29,5 @@ class School
 
 end
 binding.pry
+
+school = school.new("Niles")
