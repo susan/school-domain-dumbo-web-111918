@@ -2,7 +2,12 @@
 require 'pry'
 
 class School
-ROSTER = {}
+
+  #def initialize(roster)
+     
+ #end
+
+ ROSTER = {}
 
 
 
