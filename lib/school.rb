@@ -20,6 +20,8 @@ class School
 
   def grade (grade)
     self.roster[grade]
+    binding.pry
   end  
 end
+
 school = School.new("Niles")
