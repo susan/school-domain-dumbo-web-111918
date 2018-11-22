@@ -3,11 +3,12 @@ require 'pry'
 
 class School
 
-  #def initialize(roster)
+  def initialize(roster)
+    @roster = roster
+    @roster = {}
+  end
 
- #end
 
- ROSTER = {}
 
 
 
