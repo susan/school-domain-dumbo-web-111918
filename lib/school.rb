@@ -1,6 +1,5 @@
 # code here!
 require 'pry'
-
 class School
   attr_accessor :roster, :name
 
@@ -19,16 +18,8 @@ class School
     end
   end
 
-
-
-
-
-
-
-
-
-
+  def grade (grade)
+    self.roster[grade]
+  end  
 end
-binding.pry
-
 school = School.new("Niles")
