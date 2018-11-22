@@ -24,7 +24,7 @@ class School
 
   def sort
     self.roster[grade].sort
-  end  
+  end
 end
 
 school = School.new("Niles")
