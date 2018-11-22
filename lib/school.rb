@@ -23,7 +23,9 @@ class School
   end
 
   def sort
-    self.roster[grade].sort
+    self.roster.map do |key, value|
+      self.roster[key].sort
+    end  
   end
 end
 
