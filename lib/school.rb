@@ -16,8 +16,6 @@ class School
       self.roster[grade] = []
       self.roster[grade] << name
     end
-    binding.pry
-
   end
 
 
