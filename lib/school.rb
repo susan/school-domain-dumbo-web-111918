@@ -31,4 +31,4 @@ class School
 end
 binding.pry
 
-school = school.new("Niles")
+school = School.new("Niles")
