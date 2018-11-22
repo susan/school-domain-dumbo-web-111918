@@ -24,3 +24,4 @@ class School
 end
 
 school = School.new("Niles")
+binding.pry
