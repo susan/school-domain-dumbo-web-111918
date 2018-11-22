@@ -10,11 +10,11 @@ class School
   end
 
   def add_student(name, num)
-    if self.roster[:num]
-      self.roster[:num]<< name
+    if self.roster.has _key?(num) == true
+      self.roster[num]<< name
     else
-      self.roster[:num] = []
-      self.roster[:num] << name
+      self.roster[num] = []
+      self.roster[num] << name
     end
   end
 
