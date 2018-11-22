@@ -10,7 +10,7 @@ class School
   end
 
   def add_student(name, num)
-    if self.roster.has _key?(num) == true
+    if self.roster[num]
       self.roster[num]<< name
     else
       self.roster[num] = []
