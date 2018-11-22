@@ -11,7 +11,7 @@ class School
 
   def add_student(name,num)
     if roster[:num]
-      roster[]:num]<< name
+      roster[:num]<< name
     else
       roster[:num] = []
       roster[:num] << name
