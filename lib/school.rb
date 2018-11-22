@@ -10,4 +10,4 @@ class School
 
 
 end
-binding.pry
+#binding.pry
